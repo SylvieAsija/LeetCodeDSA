@@ -47,8 +47,11 @@ Constraints:
 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 '''
-
-
+'''
+SOLUTION
+Runtime: O(n) -> 31 ms -> beats 52.33%
+Memory:          11.71 MB -> beats 17.56%
+'''
 def romanToInt(self, s):
     """
     :type s: str
