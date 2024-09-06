@@ -31,7 +31,7 @@ s consists only of printable ASCII characters.
 '''
 '''
 SOLUTION
-Runtime: O(n) -> 44 ms -> beats 35.78%
+Runtime: O(n) -> 39 ms -> beats 38.59%
 Memory:          12.58 MB -> beats 73.86%
 '''
 def isPalindrome(s):
