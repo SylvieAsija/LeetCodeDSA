@@ -28,7 +28,7 @@ Memory:               14.46MB -> beats 17.68%
 '''
 
 
-def sortedSquares(self, nums):
+def sortedSquares(nums):
     """
     :type nums: List[int]
     :rtype: List[int]
