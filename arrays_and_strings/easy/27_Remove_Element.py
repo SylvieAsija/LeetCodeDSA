@@ -55,6 +55,8 @@ SOLUTION
 Runtime: O(n) -> 19 ms -> beats 33.74%
 Memory:          11.59 MB -> beats 69.29%
 '''
+
+
 def removeElement(nums, val):
     """
     :type nums: List[int]
@@ -68,6 +70,5 @@ def removeElement(nums, val):
                 nums.pop(index)
             else:
                 index += 1
-
 
     return len(nums)

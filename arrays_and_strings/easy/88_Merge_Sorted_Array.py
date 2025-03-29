@@ -42,6 +42,8 @@ SOLUTION
 Runtime: O(m+n) -> 16 ms -> beats 77.92%
 Memory:         11.60 MB -> beats 76.40%
 '''
+
+
 def merge(nums1, m, nums2, n):
     """
     :type nums1: List[int]

@@ -29,6 +29,8 @@ SOLUTION
 Runtime: O(n) -> 107 ms -> beats 49.32%
 Memory:          11.57 MB -> beats 99.46%
 '''
+
+
 def findClosestNumber(nums):
     """
     :type nums: List[int]
@@ -43,5 +45,6 @@ def findClosestNumber(nums):
         elif abs(val) == closest:
             max_close = max(val, max_close)
     return max_close
-    
-print(findClosestNumber([-4,-2,1,4,8]))
+
+
+print(findClosestNumber([-4, -2, 1, 4, 8]))

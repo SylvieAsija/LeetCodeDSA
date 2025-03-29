@@ -42,6 +42,8 @@ SOLUTION
 Runtime: O(n) -> 12 ms -> beats 76.25%
 Memory:          11.58 MB -> beats 85.91%
 '''
+
+
 def mergeAlternately(word1, word2):
     """
     :type word1: str

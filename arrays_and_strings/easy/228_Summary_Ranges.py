@@ -42,20 +42,22 @@ SOLUTION
 Runtime: O(n) -> 8 ms -> beats 88.44%
 Memory:          11.62 MB -> beats 53.54%
 '''
-def summaryRanges( nums):
+
+
+def summaryRanges(nums):
     """
     :type nums: List[int]
     :rtype: List[str]
     """
     if len(nums) == 0:
         return
-    
+
     ranges = []
 
     if len(nums) == 1:
         ranges.append(str(nums[0]))
         return ranges
-    
+
     counter = 0
     smallest = nums[0]
     prev = smallest
@@ -68,7 +70,7 @@ def summaryRanges( nums):
         else:
             if counter:
                 range = str(smallest) + "->" + str(smallest + counter)
-            else: 
+            else:
                 range = str(smallest)
             counter = 0
             smallest = nums[nums.index(number)]
@@ -77,5 +79,5 @@ def summaryRanges( nums):
                 print("here")
                 ranges.append(str(smallest))
         prev = number
-    
+
     return ranges

@@ -54,6 +54,8 @@ SOLUTION
 Runtime: O(n) -> 71 ms -> beats 21.14%
 Memory:          12.93 MB -> beats 73.99%
 '''
+
+
 def removeDuplicates(nums):
     """
     :type nums: List[int]
@@ -66,4 +68,3 @@ def removeDuplicates(nums):
             seen.append(num)
     nums[:] = seen[:]
     return len(nums)
-        

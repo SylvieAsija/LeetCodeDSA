@@ -26,6 +26,8 @@ SOLUTION
 Runtime: O(n) -> 7 ms -> beats 97.35%
 Memory:          12.09 MB -> beats 13.35%
 '''
+
+
 def isSubsequence(s, t):
     """
     :type s: str
@@ -38,7 +40,7 @@ def isSubsequence(s, t):
         return True
     elif t == "":
         return False
-    
+
     for t_index in range(len(t)):
         if s[s_index] == t[t_index]:
             s_index += 1

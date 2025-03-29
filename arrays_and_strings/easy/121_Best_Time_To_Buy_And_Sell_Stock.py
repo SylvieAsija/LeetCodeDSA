@@ -30,6 +30,8 @@ SOLUTION
 Runtime: O(n) -> 735 ms -> beats 67.37%
 Memory:          20.84 MB -> beats 60.02%
 '''
+
+
 def maxProfit(prices):
     """
     :type prices: List[int]
@@ -48,4 +50,3 @@ def maxProfit(prices):
     if profit:
         return profit
     return 0
-
