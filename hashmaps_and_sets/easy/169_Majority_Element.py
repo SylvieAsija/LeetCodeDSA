@@ -28,17 +28,16 @@ Memory:               13.60MB -> beats 90.06%
 '''
 
 
-def maxNumberOfBalloons(self, text):
+def majorityElement(nums):
     """
-    :type text: str
+    :type nums: List[int]
     :rtype: int
     """
     hashmap = {}
-    for letter in "baloon":
-        hashmap[letter] = 0
-
-    for letter in text:
-        if letter in hashmap:
-            hashmap[letter] += 1
-
-    return min(hashmap['b'], hashmap['a'], hashmap['l'] / 2, hashmap['o'] / 2, hashmap['n'])
+    for num in nums:
+        if num not in hashmap:
+            hashmap[num] = 1
+        else:
+            hashmap[num] += 1
+    
+    return max(hashmap, key=hashmap.get)
