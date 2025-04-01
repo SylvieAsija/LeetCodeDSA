@@ -35,7 +35,7 @@ Memory:               12.57MB -> beats 46.73%
 '''
 
 
-def maxNumberOfBalloons(self, text):
+def maxNumberOfBalloons(text):
     """
     :type text: str
     :rtype: int
